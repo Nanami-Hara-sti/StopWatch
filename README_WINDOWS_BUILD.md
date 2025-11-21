@@ -1,11 +1,11 @@
 # StopWatch - Windows ビルドと自動起動手順
 
-このドキュメントは、現在の `stopwatch.py` を Windows 上で exe 化（PyInstaller 使用）し、PC 起動時に自動で起動する方法を説明します。
+このドキュメントは、現在の `stopwatch.py` を Windows 上で exe 化し、PC 起動時に自動で起動する方法を説明します。
 
 前提
 - Windows 上で作業すること
 - Python 3.8+ がインストールされていること
-- `pyinstaller` をインストール可能であること（管理者権限が必要な場合あり）
+- `pyinstaller` をインストール可能であること
 
 1) 仮想環境作成（推奨）
 ```powershell
